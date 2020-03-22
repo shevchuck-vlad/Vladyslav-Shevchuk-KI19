@@ -1,0 +1,73 @@
+object Form1: TForm1
+  Left = 1500
+  Height = 218
+  Top = 332
+  Width = 269
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 218
+  ClientWidth = 269
+  Position = poDesktopCenter
+  LCLVersion = '2.0.4.0'
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Hint = 'Після натиснення цієї кнопки буде виведено'#13#10'кількість літер у введеному речені.'#13#10'Речення може містити лише українські символи'#13#10'та знаки пунктуації, а саме: крапка, кома, дужки,'#13#10'лапки, знаки питання та оклику, тире, апостроф.'#13#10'Знаки пунктуації за літеру не вважаються.'
+    Top = 152
+    Width = 252
+    Caption = 'Кількість літер'
+    OnClick = Button1Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Hint = 'За натисненням цієї кнопки виводиться повідомлення,'#13#10'що було введено у рядок: слово чи число, а також, '#13#10'якщо було введено число - виводиться його тип, ціле/дійсне.'#13#10'Обмеження: всі літери української абетки, цифри (0-9),'#13#10'в разі написання числа допустимі також кома, крапка та минус,'#13#10'які слід правильно використовувати.'
+    Top = 184
+    Width = 123
+    Caption = 'Визначити'
+    OnClick = Button2Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 136
+    Height = 25
+    Hint = 'За натисненням цієї кнопки виводиться'#13#10'поточна пора доби (ранок, день, вечір, нічь).'#13#10'Для виконання операції НЕ використовується'#13#10'введений рядок, а також ВИКОРИСТОВУЄТЬСЯ'#13#10'локальний годинник операційної системи.'
+    Top = 184
+    Width = 124
+    Caption = 'Пора доби'
+    OnClick = Button3Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 96
+    Width = 252
+    TabOrder = 3
+    Text = 'Введіть текст.'
+  end
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 128
+    Width = 252
+    AutoSize = False
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 75
+    Top = 8
+    Width = 252
+    Alignment = taCenter
+    Caption = 'ПЗ для визначення типу введених даних.'#13#10'При наведені курсору на кнопку буде описан'#13#10'принцип її функіонування та обмеження.'#13#10'Розробив Шевчук Владислав Олександрович.'#13#10'ЦНТУ. м. Кропивницький, 2020р.'
+    ParentColor = False
+  end
+end

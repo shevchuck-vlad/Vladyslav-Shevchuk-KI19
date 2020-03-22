@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="P:\Lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1325644550"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -WG -l -vewnhibq &quot;-FiX:\Рабочий стол\Шевчук ЛР1\prj\lib\x86_64-win64&quot; &quot;-FuX:\Рабочий стол\Шевчук ЛР1\t1&quot; -FuP:\Lazarus\lcl\units\x86_64-win64\win32 -FuP:\Lazarus\lcl\units\x86_64-win64 -FuP:\Lazarus\components\lazutils\lib\x86_64-win64 -FuP:\Lazarus\packager\units\x86_64-win64 &quot;-FuX:\Рабочий стол\Шевчук ЛР1\prj\&quot; &quot;-FUX:\Рабочий стол\Шевчук ЛР1\prj\lib\x86_64-win64\&quot; &quot;-FEX:\Рабочий стол\Шевчук ЛР1\prj\&quot; &quot;-oX:\Рабочий стол\Шевчук ЛР1\prj\lab1_task1_Shevchuk.exe&quot; -dLCL -dLCLwin32 lab1_task1_Shevchuk.pas"/>
+</CONFIG>

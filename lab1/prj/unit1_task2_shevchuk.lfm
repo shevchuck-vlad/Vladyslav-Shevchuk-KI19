@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = 860
+  Height = 240
+  Top = 578
+  Width = 320
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
+  Position = poDesktopCenter
+  LCLVersion = '2.0.4.0'
+  object Xe: TEdit
+    Left = 16
+    Height = 23
+    Top = 80
+    Width = 296
+    Alignment = taCenter
+    TabOrder = 0
+    Text = 'X'
+  end
+  object Ye: TEdit
+    Left = 16
+    Height = 23
+    Top = 112
+    Width = 296
+    Alignment = taCenter
+    TabOrder = 1
+    Text = 'Y'
+  end
+  object Ze: TEdit
+    Left = 16
+    Height = 23
+    Top = 144
+    Width = 296
+    Alignment = taCenter
+    TabOrder = 2
+    Text = 'Z'
+  end
+  object Label1: TLabel
+    Left = 16
+    Height = 24
+    Top = 176
+    Width = 296
+    Alignment = taCenter
+    AutoSize = False
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 26
+    Hint = 'Після натиснення кнопки буде виведено'#13#10'результат, розрахований по наданій формулі.'#13#10'Числа мають бути в діапазоні від 1 до 126,'#13#10'а також число X не може бути рівним числу Z.'
+    Top = 208
+    Width = 296
+    Caption = 'Результат'
+    OnClick = Button1Click
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 40
+    Height = 75
+    Top = 0
+    Width = 252
+    Alignment = taCenter
+    Caption = 'ПЗ для розрахунку по формулі.'#13#10'При наведені курсору на кнопку буде описан'#13#10'принцип її функіонування та обмеження.'#13#10'Розробив Шевчук Владислав Олександрович.'#13#10'ЦНТУ. м. Кропивницький, 2020р.'
+    ParentColor = False
+  end
+end
